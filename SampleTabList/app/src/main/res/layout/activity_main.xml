@@ -20,7 +20,6 @@
             android:layout_height="wrap_content"
             android:elevation="4dp"
             android:theme="@style/CustomTabText"
-            app:tabBackground="?android:colorBackground"
             app:tabMinWidth="100dp"
             app:tabMode="scrollable"
             app:tabSelectedTextColor="?colorPrimary"
