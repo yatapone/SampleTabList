@@ -5,27 +5,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".TabFragment">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tab_layout"
+        <LinearLayout
+            android:id="@+id/linear_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:elevation="4dp"
-            android:theme="@style/CustomTabText"
-            app:tabBackground="?android:colorBackground"
-            app:tabMinWidth="100dp"
-            app:tabMode="scrollable"
-            app:tabSelectedTextColor="?colorPrimary"
-            app:tabTextColor="?colorOnSurface" />
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
 
-    </androidx.viewpager.widget.ViewPager>
+            <!-- subCategoryHeader -->
+
+            <!-- cardListRecycler -->
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
