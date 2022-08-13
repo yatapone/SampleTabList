@@ -57,7 +57,7 @@ class TabFragment : Fragment() {
 
     private fun onClickSubCategoryHeader(subCategory: SubCategory) {
         Log.d(TAG, "onClickSubCategoryHeader: subCategoryId=${subCategory.subCategoryId}, subCategoryName=${subCategory.subCategoryName}")
-        Toast.makeText(requireContext(), "subCategoryHeader clicked. \nsubCategoryId=${subCategory.subCategoryId}, subCategoryName=${subCategory.subCategoryName}", Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(), "subCategoryHeader clicked. \nsubCategoryId=${subCategory.subCategoryId}, \nsubCategoryName=${subCategory.subCategoryName}", Toast.LENGTH_SHORT).show()
     }
 
     private fun onClickCard(card: Card) {
